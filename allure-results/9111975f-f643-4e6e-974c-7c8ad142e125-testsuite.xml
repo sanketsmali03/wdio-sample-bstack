@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702537952169' stop='1702537952652'>
+    <name>Complete Set Of Scenarios</name>
+    <title>Complete Set Of Scenarios</title>
+    <test-cases>
+        <test-case start='1702537952567' status='passed' stop='1702537952651'>
+            <name>Test Scenario 4</name>
+            <title>Test Scenario 4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Complete Set Of Scenarios'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-120.0.6099.63'/>
+            </parameters>
+            <steps>
+                <step start='1702537952584' status='passed' stop='1702537952601'>
+                    <name>Given I have two numbers</name>
+                    <title>Given I have two numbers</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1702537952601' status='passed' stop='1702537952626'>
+                    <name>When They are 2 and 5</name>
+                    <title>When They are 2 and 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1702537952626' status='passed' stop='1702537952649'>
+                    <name>Then It should equal 7</name>
+                    <title>Then It should equal 7</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
